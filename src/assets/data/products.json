@@ -1,0 +1,37 @@
+[
+    {
+        "productId": "1",
+        "productType": "Car",
+		"productName": "Swift Dezire",
+        "Brand": "Maruti",
+        "Price": "8000"
+    },
+    {
+        "productId": "2",
+        "productType": "Car",
+		"productName": "Baleno",
+        "Brand": "Maruti",
+        "Price": "9000"
+    },
+    {
+        "productId": "3",
+        "productType": "Car",
+		"productName": "Wagon R",
+        "Brand": "Maruti",
+        "Price": "5000"
+    },
+	{
+        "productId": "4",
+        "productType": "Car",
+		"productName": "Honda City",
+        "Brand": "Hyundai",
+        "Price": "11000"
+    },
+	{
+        "productId": "5",
+        "productType": "Car",
+		"productName": "Indigo",
+        "Brand": "Tata",
+        "Price": "8000"
+    }
+]

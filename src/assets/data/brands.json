@@ -1,0 +1,20 @@
+[
+    {
+        "brandId": "1",
+        "brandName": "Maruti",
+        "brandItems": "Car, Plane",
+        "brandDetails": "Manufacture"
+    },
+    {
+        "brandId": "2",
+        "brandName": "Hyundai",
+        "brandItems": "Car, Bike",
+        "brandDetails": "Manufacture"
+    },
+    {
+        "brandId": "3",
+        "brandName": "Tata",
+        "brandItems": "Car",
+        "brandDetails": "Manufacture"
+    }
+]

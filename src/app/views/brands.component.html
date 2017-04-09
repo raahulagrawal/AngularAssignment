@@ -1,0 +1,20 @@
+<h3>{{title}}</h3>
+      <hr>
+      <table class="table table-bordered table-hover">
+		<thead>
+			<tr>
+				<th>Brand Id</th>
+				<th>Brand Name</th>
+				<th>Brand Item</th>
+				<th>Brand Detail</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr *ngFor="let brand of brands | async">
+			<td>{{ brand.brandId }}</td>
+			<td>{{ brand.brandName }}</td>
+			<td>{{ brand.brandItems }}</td>
+			<td>{{ brand.brandDetails }}</td>
+		</tr>
+		</tbody>
+	</table>

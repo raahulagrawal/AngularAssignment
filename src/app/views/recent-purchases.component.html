@@ -1,0 +1,21 @@
+<h3>{{title}}</h3>
+      <hr>
+      <table class="table table-bordered table-hover">
+		<thead>
+			<tr>
+				<th>Product Type</th>
+				<th>Product Name</th>
+				<th>Brand</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let product of products | async">
+				<td> {{ product.productId }} </td>
+				<td> {{ product.productName }} </td>
+				<td> {{ product.Price | currency:'USD':true}} </td>
+				<td> <button (click)="displayDetails($event,product.productId)" class="btn btn-info center-block btn-xs">View Details</button> </td>
+			</tr>
+  
+		</tbody>
+	</table>

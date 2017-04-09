@@ -1,0 +1,15 @@
+[
+    {
+        "categoryId": "1",
+        "categoryName": "Car"
+        
+    },
+    {
+        "categoryId": "2",
+        "categoryName": "Bike"
+    },
+    {
+        "categoryId": "3",
+        "categoryName": "Plane"
+    }
+]
